@@ -32,6 +32,7 @@ void Matryoshka::remove()
         // グローバル配列の初期値は0なので、0以外の場合removeを実行
         if(matList[i] != 0) {
            matList[i]->remove();
+           matList[i] = 0;
         }
     }
     count = 0;
