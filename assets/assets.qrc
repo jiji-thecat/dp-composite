@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>matryoshka.png</file>
+        <file>cat.png</file>
+    </qresource>
+</RCC>
